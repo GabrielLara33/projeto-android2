@@ -50,7 +50,7 @@ header>p{
 
 
 p{
-    margin: auto;
+    margin: 10px;
     font-family: var(--fonte-padrão);
     margin-bottom: 10px;
     text-indent: 20px;
@@ -58,7 +58,7 @@ p{
 nav{
 
     padding: 10px;
-    background-color: #114e2c;
+    background-color: #064723;
     color: white;
     border:10px
 }
@@ -83,16 +83,20 @@ nav>a:hover{
         margin: auto;
         padding-top: 20px;
         border-radius: 0px 0px 5px 5px;
-        box-shadow: 0px 3px 0px 3px rgba(0, 0, 0, 0.249);
+         box-shadow: 0px 0px 10px 11px rgba(0, 0, 0, 0.315);
     }
     main>picture>img{
         width: 100%;
     }
      main>img{ 
         
-        width: 50%;
+        max-width: 350px;
+    display: block;
+    margin: auto;
+}
         
-    }
+    
+    
     main>h1{
         margin: 15px;
         color: #114e2c;
@@ -133,10 +137,11 @@ nav>a:hover{
     }
    
    aside{
-    background-color: rgba(20, 60, 36, 0.56);
+    background-color:#6F9676;
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
+    box-shadow: -1px 1px 16px 2px black;
     
    }
    aside>ul{
@@ -148,36 +153,60 @@ nav>a:hover{
 
    }
    aside>h3{
-    background-color: #08562a;
+    background-color: #0a361d;
     color: rgb(246, 248, 246);
     padding: 5px;
     margin: -19px -19px 0px -19px;
     border-radius: 10px 10px 0px 0px;
 
+
    }
-   strong{
+    strong{
+        text-align: center;
     
-    color:#31d179;
+    color:#047045;
 
    }
+   div>strong{
+    color: #45c945;
+   }
+   div.p>p{
+    background-color: #0c0c0c;
+    color: antiquewhite;
+    text-align: center;
+    padding: 6px;
+   }
+   div.p>p>strong:hover{
+    color: #45c945;
 
+    animation-duration: 0.3s;
+   }
    strong>a{
-    padding: 0px 0px 0px 3px ;
+    animation-duration: 2s;
     text-decoration: none;
-    color: #076b34;
-    background-color: #33a3333e;
-    border-radius: 5px;
-   
-}
-    
-    strong>a:hover{
-        
-        color: #196c3f;
-        text-decoration: underline;
-    }
-   strong:hover{ 
-    background-color: #f0f5f0;
-     border-radius:10% ;
-     
+    font-style: italic;
+    color: #043104;
+    background-image: linear-gradient(to right,#aff2af
+    ,#0bf87253);
+    border-radius: 2px;
+   }
+   strong>a:hover{
+    background-color: #f5f0f0;
+    color: #57c30f;
+    transition-duration: 0.2s;
 
    }
+    div.mydiv>p{
+        color: #064723;
+    padding: 10px;
+    }
+
+   
+
+ 
+
+   
+  
+
+   
+   
